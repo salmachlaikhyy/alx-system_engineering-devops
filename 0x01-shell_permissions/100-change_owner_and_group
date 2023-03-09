@@ -1,7 +1,11 @@
 #!/bin/bash
+<<<<<<< HEAD
 chown -h vincent:staff *
 
 
 
 
 
+=======
+chown -h vincent:staff*
+>>>>>>> 973d72b09e82e52b52e53eb2376b874fcbc45689
