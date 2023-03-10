@@ -1,26 +1,2 @@
 #!/bin/bash
-
-# Check if the file exists
-if [ -e hello ]; then
-
-  # Check if the file is owned by guillaume
-  if [ $(stat -c %U hello) = "guillaume" ]; then
-
-    # Change the owner of the file to betty
-    chown betty hello
-
-    echo "File owner changed to betty."
-
-  else
-    echo "File is not owned by guillaume."
-  fi
-
-else
-  echo "File does not exist."
-fi
-In this script, we first check if the file "hello" exists using the -e flag. If it does exist, we use the stat command to check if the file is currently owned by the user "guillaume". If it is, we use the chown command to change the owner of the file to "betty". Finally, we print a message indicating whether the owner of the file was successfully changed or not.
-
-
-
-
-
+if [ $(stat -c %U hello) = "guillaume" ]; then chown betty hello; fi
