@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo "Best School" > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+=======
+echo "Best School" > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)     # add text to the file
+>>>>>>> 267eda6f5c0de347f7f89300924c1d33415d7767
